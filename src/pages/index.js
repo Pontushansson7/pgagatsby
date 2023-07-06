@@ -72,7 +72,7 @@ const utmParameters = `?utm_source=starter&utm_medium=start-page&utm_campaign=de
 const IndexPage = () => (
   <Layout>
     <div className={styles.textCenter}>
-        HEllooo
+        HElloooss
     </div>
     
     {moreLinks.map((link, i) => (
