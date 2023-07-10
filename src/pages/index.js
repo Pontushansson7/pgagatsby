@@ -47,7 +47,7 @@ const samplePageLinks = [
 ]
 
 const moreLinks = [
-  { text: "Join us on Discord", url: "https://gatsby.dev/discord" },
+  { text: "About Us", url: "/about" },
   {
     text: "Documentation",
     url: "https://gatsbyjs.com/docs/",
@@ -72,7 +72,7 @@ const utmParameters = `?utm_source=starter&utm_medium=start-page&utm_campaign=de
 const IndexPage = () => (
   <Layout>
     <div className={styles.textCenter}>
-        Another sick fix
+        This is a new site
     </div>
     
     {moreLinks.map((link, i) => (
