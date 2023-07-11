@@ -72,7 +72,7 @@ const utmParameters = `?utm_source=starter&utm_medium=start-page&utm_campaign=de
 const IndexPage = () => (
   <Layout>
     <div className={styles.textCenter}>
-        Send 10 dollars and amanda will display tits.
+        New site, with deploy setup!
     </div>
     
     {moreLinks.map((link, i) => (
