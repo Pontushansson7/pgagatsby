@@ -72,7 +72,8 @@ const utmParameters = `?utm_source=starter&utm_medium=start-page&utm_campaign=de
 const IndexPage = () => (
   <Layout>
     <div className={styles.textCenter}>
-        New site, with deploy setup!
+      <h1>BREAKING NEWS</h1>
+      <p>Nisse Joins todays herrklubb session at Boston Grill.</p>
     </div>
     
     {moreLinks.map((link, i) => (
